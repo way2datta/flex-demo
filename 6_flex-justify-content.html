@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    ul.numbers-container {
+        background-color: antiquewhite;
+        list-style: none;
+        font-size: 2rem;
+        font-weight: bolder;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .numbers-container li {
+        color: #fff;
+        padding: 10px;
+        width: 150px; /* Flex wrap works only when you provide some width on? */
+    }
+
+    .numbers-container li:first-child {
+        background-color: red;
+    }
+
+    .numbers-container li:nth-child(2) {
+        background-color: orange;
+    }
+
+    .numbers-container li:nth-child(3) {
+        background-color: blueviolet;
+    }
+
+    .numbers-container li:nth-child(4) {
+        background-color: greenyellow;
+    }
+
+    .numbers-container li:nth-child(5) {
+        background-color: green;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flex lesson</title>
+</head>
+
+<body>
+    <div>
+        <ul class="numbers-container">
+            <li>
+                1
+            </li>
+            <li>
+                2
+            </li>
+            <li>
+                3
+            </li>
+            <li>
+                4
+            </li>
+            <li>
+                5
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
